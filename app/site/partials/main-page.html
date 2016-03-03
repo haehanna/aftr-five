@@ -1,0 +1,6 @@
+<div class="all-entries" ng-repeat="entry in ctrl.entries">
+	<div>
+		{{entry.title}}
+		<div ng-bind-html="entry.content | trustAsHtml"></div>
+	</div>
+</div>

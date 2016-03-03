@@ -1,0 +1,7 @@
+<div>
+{{ctrl.entry.title}}
+</div>
+
+<div ng-bind-html="ctrl.myHTML | trustAsHtml"></div>
+
+<button type="submit" ng-click="ctrl.deleteEntry(entryId)">{{ctrl.entry_delete}}</button>

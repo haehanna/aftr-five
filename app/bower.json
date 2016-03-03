@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "homepage": "https://github.com/haehanna/aftr-five",
+  "authors": [
+    "haehanna <hanna92@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "angular-file-upload": "~2.2.0",
+    "angular": "~1.4.8"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

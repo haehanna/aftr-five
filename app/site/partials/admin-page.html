@@ -1,0 +1,33 @@
+<article>
+	<form>
+		<div>
+			<p>title</p>
+			<input type="text" ng-model="ctrl.title">
+		</div>
+
+		<div>
+			<p>date</p>
+			<input type="text" ng-model="ctrl.date">
+		</div>
+
+		<div>
+			<p>category</p>
+			<input type="text" ng-model="ctrl.category">
+		</div>
+
+		<div>
+			<p>image</p>
+			<input type="text" ng-model="ctrl.image">
+		</div>
+
+		<div>
+			<p>content</p>
+			<input type="text" ng-model="ctrl.content">
+		</div>
+		<button type="submit" ng-click="ctrl.addEntry()">submit entry</button>
+	</form>
+</article>
+
+<div class="all-entries" ng-repeat="entry in ctrl.entries">
+<a ng-click="ctrl.toEntry(entry,entry.id)">{{entry.title}}
+</div>
